@@ -1,3 +1,42 @@
+input[type="text"] {
+    display: block;
+    margin-top:1%;
+    height: auto;
+    width: 95%;
+    font-size: 110%;
+    padding: 1.3%;
+}
+
+input[type="submit"] {
+
+    background: #4aaaa5;
+    width: 25%;
+    padding:2% 1% 2% 1%;
+    color: #FFFFFF;
+    margin-top: 4%;
+    text-align: center;
+    font-size: 110%;
+    float: left;
+    border: none;
+}
+.line {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+textarea {
+    display: block;
+    height: 150px;
+    width:97.4%;
+}
+
+#contact {
+    background: #FFFFFF;
+    border: 60px #FFFFFF solid;
+    float: left;
+    overflow: hidden;
+}
+
 body {
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 background-image: url("../images/cork-wallet.png");
@@ -54,6 +93,7 @@ a {
 #myPhoto {
 padding-right: 2%;
 padding-bottom: 2%;
+width: 25%;
 }
 
 
@@ -62,7 +102,6 @@ padding-bottom: 2%;
     width: auto;
     padding:2% 1% 2% 1%;
     color: #FFFFFF;
-
     text-align: center;
 
 }
@@ -82,7 +121,6 @@ padding-bottom: 2%;
     background: #FFFFFF;
     border: 60px #FFFFFF solid;
     float: left;
-    margin-left: 5%;
     overflow: hidden;
 }
 .push {
@@ -94,6 +132,77 @@ padding-bottom: 2%;
     float: left;
     overflow: hidden;
 }
+@media (min-width: 980px) {
+    #myPhoto {
+        float: left;
+        height: 200px;
+        width: 50%;
+    }
+    #nameNav {
+        float: left;
+        margin-top: .5%;
+        margin-left: 10%;
+    }
+    navSelect {
+        float: right;
+        margin: 2% 24%;
+    }
+    #about {
+        float: left;
+        overflow: hidden;
+        width: 45%;
+        clear:none;
+    }
+    #contactMe {
+        background: #FFFFFF;
+        border: 60px #FFFFFF solid;
+        width: 25%;
+        float: left;
+        clear: none;
+        margin-top:  0%;
+    }
+}
+@media (min-width: 768px) {
+    #myPhoto {
+        height: 225px;
+        float: left;
+    }
+    .line {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    h1{
+        font-size: 120%;
+    }
+    #contactMe {
+        margin-top: 2%;
+        width:79%;
+        clear:both;
+    }
+
+    #about {
+        width: 79%;
+    }
+
+    #background {
+        margin: 2% 2% 2% 2%;
+    }
+    .contactLogos {
+        padding: 1%;
+    }
+
+    #nameNav {
+        margin-left: 4%;
+        width: 27%;
+        padding-bottom: 3%;
+        float: left;
+
+    }
+    #navSelect {
+        margin: 2% 14%;
+    }
+}
+
 @media (min-width: 640px) {
     #myPhoto {
         height: 250px;
@@ -113,40 +222,14 @@ padding-bottom: 2%;
         margin-top: 2%;
         width:79%;
         clear:both;
-        margin-left: 2%;
         margin-bottom: 10%;
     }
 
     #about {
         width: 79%;
-        margin-left: 2%;
     }
-
-    #background {
-        margin: 2% 2% 2% 2%;
-    }
-    .contactLogos {
-        padding: 1%;
-    }
-}
-
-@media (min-width: 768px) {
-    #myPhoto {
-        height: 200px;
-    }
-    h1{
-        font-size: 120%;
-    }
-    #contactMe {
-        margin-top: 2%;
-        width:79%;
-        clear:both;
-        margin-left: 2%;
-    }
-
-    #about {
+    #contact {
         width: 79%;
-        margin-left: 2%;
     }
 
     #background {
@@ -154,30 +237,5 @@ padding-bottom: 2%;
     }
     .contactLogos {
         padding: 1%;
-    }
-
-    #nameNav {
-        margin-left: 4%;
-        width: 27%;
-        padding-bottom: 3%;
-
-    }
-    #navSelect {
-        margin: 2% 14%;
-    }
-}
-
-@media (min-width: 980px) {
-    #myPhoto {
-        float: left;
-    }
-    #nameNav {
-        float: left;
-        margin-top: .5%;
-        margin-left: 10%;
-    }
-    navSelect {
-        float: right;
-        margin: 2% 24%;
     }
 }
