@@ -1,3 +1,36 @@
+h3 {
+    position: absolute;
+    bottom:15%;
+    background: #4aaaa5;
+    color: #FFFFFF;
+    width: inherit;
+    text-align: center;
+    height: 30px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.projectImage {
+float:left;
+
+}
+
+.imageDiv {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+}
+
+#portfolio {
+    background: #FFFFFF;
+    width: 45%;
+    border: 60px #FFFFFF solid;
+    float: left;
+    margin-right: 2%;
+}
+
 input[type="text"] {
     display: block;
     margin-top:1%;
@@ -168,6 +201,23 @@ width: 25%;
     .contactLogos {
         padding: 1%;
     }
+
+    #portfolio {
+        width: 79%;
+    }
+    .image {
+        height: 250px;
+        width: inherit;
+        padding-top: 2%;
+        padding-right: 2%;
+
+    }
+    .imageDiv {
+        float: none;
+        height: 250px;
+        width: inherit;
+        margin-left: 16%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -208,7 +258,7 @@ width: 25%;
     }
     #navSelect {
         margin: 2% 14%;
-    }
+
 }
 
 @media (min-width: 980px) {
@@ -221,6 +271,7 @@ width: 25%;
         float: left;
         margin-top: .5%;
         margin-left: 10%;
+        margin-left: 2%;
     }
     navSelect {
         float: right;
@@ -244,5 +295,17 @@ width: 25%;
         float: left;
         clear: none;
         margin-top:  0%;
+    }
+
+    #portfolio {
+        width: 45%;
+    }
+    .imageDiv {
+        padding: 4%;
+        position: relative;
+        width: 150px;
+        height: 150px;
+        float: left;
+        overflow: hidden;
     }
 }
