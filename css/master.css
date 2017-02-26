@@ -132,36 +132,44 @@ width: 25%;
     float: left;
     overflow: hidden;
 }
-@media (min-width: 980px) {
+
+@media (min-width: 640px) {
     #myPhoto {
-        float: left;
-        height: 200px;
-        width: 50%;
+        height: 250px;
+        width: 100%;
     }
-    #nameNav {
-        float: left;
-        margin-top: .5%;
-        margin-left: 10%;
+    h1{
+        font-size: 120%;
     }
-    navSelect {
-        float: right;
-        margin: 2% 24%;
+    #navSelect {
+        margin-left:10%;
     }
-    #about {
-        float: left;
-        overflow: hidden;
-        width: 45%;
-        clear:none;
+    .line {
+        margin-left: 40%;
+        margin-right: 40%;
     }
     #contactMe {
-        background: #FFFFFF;
-        border: 60px #FFFFFF solid;
-        width: 25%;
-        float: left;
-        clear: none;
-        margin-top:  0%;
+        margin-top: 2%;
+        width:79%;
+        clear:both;
+        margin-bottom: 10%;
+    }
+
+    #about {
+        width: 79%;
+    }
+    #contact {
+        width: 79%;
+    }
+
+    #background {
+        margin: 2% 2% 2% 2%;
+    }
+    .contactLogos {
+        padding: 1%;
     }
 }
+
 @media (min-width: 768px) {
     #myPhoto {
         height: 225px;
@@ -203,39 +211,38 @@ width: 25%;
     }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 980px) {
     #myPhoto {
-        height: 250px;
-        width: 100%;
+        float: left;
+        height: 200px;
+        width: 50%;
     }
-    h1{
-        font-size: 120%;
+    #nameNav {
+        float: left;
+        margin-top: .5%;
+        margin-left: 10%;
     }
-    #navSelect {
-        margin-left:10%;
+    navSelect {
+        float: right;
+        margin: 2% 24%;
     }
-    .line {
-        margin-left: 40%;
-        margin-right: 40%;
+    #about {
+        float: left;
+        overflow: hidden;
+        width: 45%;
+        margin-right: 2%;
+        clear:none;
+    }
+    #contact{
+        width: 45%;
+        margin-right: 2%;
     }
     #contactMe {
-        margin-top: 2%;
-        width:79%;
-        clear:both;
-        margin-bottom: 10%;
-    }
-
-    #about {
-        width: 79%;
-    }
-    #contact {
-        width: 79%;
-    }
-
-    #background {
-        margin: 2% 2% 2% 2%;
-    }
-    .contactLogos {
-        padding: 1%;
+        background: #FFFFFF;
+        border: 60px #FFFFFF solid;
+        width: 25%;
+        float: left;
+        clear: none;
+        margin-top:  0%;
     }
 }
