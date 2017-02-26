@@ -1,0 +1,14 @@
+#about {
+    background: #FFFFFF;
+    width: 20%;
+    border: 60px #FFFFFF solid;
+    float: left;
+    margin-left: 23%;
+    overflow: hidden;
+}
+
+#myPhoto {
+float: left;
+padding-right: 2%;
+padding-bottom: 2%;
+}

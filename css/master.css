@@ -1,0 +1,88 @@
+body {
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+background-image: url("../images/cork-wallet.png");
+}
+
+header,h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    background: #FFFFFF;
+
+}
+
+header {
+border: 1px solid white;
+overflow: hidden;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-size: 175%;
+    padding-bottom: 2%;
+}
+
+footer {
+    position: fixed;
+    color: #D3D3D3;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    background:#666666;
+    text-align: center;
+    border-top:5px #4FA9A4 solid;
+    padding: 1.5%;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contactLogos {
+    padding-right: 4%;
+    float: left;
+    height: auto;
+    max-width: 25%;
+}
+
+.bottomLine {
+    border-bottom: 5px;
+    border-color:#D3D3D3;
+    border-style: solid;
+    margin-bottom: 4%;
+}
+
+#nameNav {
+    background: #4aaaa5;
+    width: 11%;
+    padding:2% 1% 2% 1%;
+    color: #FFFFFF;
+    margin-top: .5%;
+    margin-left: 10%;
+    text-align: center;
+    float: left;
+}
+
+#navSelect {
+    float: right;
+    display: inline-flex;
+    margin: 2% 24%;
+    color:#666666;
+}
+
+#background {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#contactMe {
+    background: #FFFFFF;
+    width: 10%;
+    border: 30px #FFFFFF solid;
+    float: left;
+    margin-left: 5%;
+    overflow: hidden;
+}
+.push {
+    height: 50px;
+}
