@@ -51,22 +51,25 @@ a {
     border-style: solid;
     margin-bottom: 4%;
 }
+#myPhoto {
+padding-right: 2%;
+padding-bottom: 2%;
+}
+
 
 #nameNav {
     background: #4aaaa5;
-    width: 11%;
+    width: auto;
     padding:2% 1% 2% 1%;
     color: #FFFFFF;
-    margin-top: .5%;
-    margin-left: 10%;
+
     text-align: center;
-    float: left;
+
 }
 
 #navSelect {
-    float: right;
     display: inline-flex;
-    margin: 2% 24%;
+    margin: 2%;
     color:#666666;
 }
 
@@ -77,12 +80,104 @@ a {
 
 #contactMe {
     background: #FFFFFF;
-    width: 10%;
-    border: 30px #FFFFFF solid;
+    border: 60px #FFFFFF solid;
     float: left;
     margin-left: 5%;
     overflow: hidden;
 }
 .push {
     height: 50px;
+}
+#about {
+    background: #FFFFFF;
+    border: 60px #FFFFFF solid;
+    float: left;
+    overflow: hidden;
+}
+@media (min-width: 640px) {
+    #myPhoto {
+        height: 250px;
+        width: 100%;
+    }
+    h1{
+        font-size: 120%;
+    }
+    #navSelect {
+        margin-left:10%;
+    }
+    .line {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    #contactMe {
+        margin-top: 2%;
+        width:79%;
+        clear:both;
+        margin-left: 2%;
+        margin-bottom: 10%;
+    }
+
+    #about {
+        width: 79%;
+        margin-left: 2%;
+    }
+
+    #background {
+        margin: 2% 2% 2% 2%;
+    }
+    .contactLogos {
+        padding: 1%;
+    }
+}
+
+@media (min-width: 768px) {
+    #myPhoto {
+        height: 200px;
+    }
+    h1{
+        font-size: 120%;
+    }
+    #contactMe {
+        margin-top: 2%;
+        width:79%;
+        clear:both;
+        margin-left: 2%;
+    }
+
+    #about {
+        width: 79%;
+        margin-left: 2%;
+    }
+
+    #background {
+        margin: 2% 2% 2% 2%;
+    }
+    .contactLogos {
+        padding: 1%;
+    }
+
+    #nameNav {
+        margin-left: 4%;
+        width: 27%;
+        padding-bottom: 3%;
+
+    }
+    #navSelect {
+        margin: 2% 14%;
+    }
+}
+
+@media (min-width: 980px) {
+    #myPhoto {
+        float: left;
+    }
+    #nameNav {
+        float: left;
+        margin-top: .5%;
+        margin-left: 10%;
+    }
+    navSelect {
+        float: right;
+        margin: 2% 24%;
+    }
 }
